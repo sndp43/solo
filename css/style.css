@@ -446,7 +446,30 @@ ul.social-list li:nth-child(3):hover a {
     position: absolute;
     bottom: -8px;
     left: 6px;
+}
 
+/* =========================================
+                Statements
+============================================ */
+#statement {
+    background: url("../img/tech/tech-statement.jpg") no-repeat fixed center;
+    background-size: cover;
 
+}
 
+#tech-statement h3 {
+    color: #fff;
+    font-size: 28px;
+    line-height: 45px;
+}
+
+#tech-statement p {
+    font-size: 14px;
+    color: #f4c613;
+    font-family: "Raleway", sans-serif;
+    margin-top: 8px;
+}
+
+#statement .content-box-lg {
+    background: rgba(0, 0, 0, 0.3);
 }
