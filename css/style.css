@@ -195,9 +195,9 @@ section {
     padding: 100px 0;
 }
 
-/* =========================================
-                Verticle Headings Boxes
-============================================ */
+/* ====================================================
+                Verticle/Horizontal Headings Boxes
+======================================================= */
 
 .verticle-heading h5 {
     color: #f4c613;
@@ -215,11 +215,26 @@ section {
 
 .verticle-heading h2 {
     margin: 0 0 0 35px;
-    font-size: 42px;
-    font-weight: 100;
+}
+.verticle-heading h2,.horizontal-heading h2 {
+    font-weight:100;
     line-height: 45px;
+    font-size: 42px;
 }
 
+.horizontal-heading{
+    margin-bottom: 80px;
+}
+.horizontal-heading h5{
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color:#f4c613;
+    text-transform: uppercase;
+}
+.horizontal-heading h2{
+    margin:0px;
+}
 /* =========================================
                 About 01
 ============================================ */
@@ -473,3 +488,66 @@ ul.social-list li:nth-child(3):hover a {
 #statement .content-box-lg {
     background: rgba(0, 0, 0, 0.3);
 }
+
+/* =========================================
+                Services section01
+============================================ */
+
+#services-01 img{
+    margin: 60px 0;
+}
+.service{
+    
+    margin: 35px 0;
+}
+.service .icon{
+    font-size: 42px;
+    margin: 0px;
+    transition: all 400ms linear;
+}
+.service:hover .icon{
+    color: #f4c613;
+    transform: translateX(-20px);
+}
+
+.service h5{
+    color:#f4c613; 
+    font-size: 12px;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+}
+.service:hover h5{
+    color: #212226;
+
+}
+
+.service h4{
+    font-size: 24px;
+    margin: 0 0 8px 0;
+}
+.service p{
+    line-height: normal;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
