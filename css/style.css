@@ -246,7 +246,7 @@ section {
 }
 
 .horizontal-heading h2,
-.vertical-heading h2 {
+.verticle-heading h2 {
     font-size: 42px;
     font-weight: 100;
     line-height: 45px;
@@ -1036,6 +1036,64 @@ ul.social-list li:nth-child(3):hover a {
     font-weight: 500px;
     margin:0;
 }
+/* =========================================
+                Contact
+============================================ */
+
+/*  Contact Left*/
+#contact-left p{
+    margin:25px 0 20px 0;
+}
+ul.office-details{
+    list-style: none;
+    padding: 0;
+}
+
+ul.office-details li{
+    font-family: "Open Sans",sans-serif;
+    margin-top: 12px;
+    display:flex;
+}
+ul.office-details li i{
+    font-size: 20px;
+    width:45px;
+}
+#contact-left ul.social-list li a{
+    color:#212226;
+    border:1px solid #212226;
+    text-align: center;
+}
+#contact-left ul.social-list li a:hover{
+    color:#fff;
+    border-color:transparent;
+}
+
+/*  Contact Right*/
+
+#contact-right{
+    padding:25px 30px;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    border-radius:4px;
+}
+#contact-right h4{
+    font-size: 24px;
+}
+#contact-right p{
+    margin-bottom: 25px;
+}
+#contact-right form .form-control{
+    font-family:"Open Sans",sans-serif;
+    padding: 10px 15px;
+    font-size: 12px;
+    line-height: 24px;
+}
+#contact-right form textarea.form-control{
+     min-height: 164px;
+}
+
+
+
 
 
 
